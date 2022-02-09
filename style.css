@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainbox{
+    width: 450px;
+    min-height: 10px;
+    margin: auto;
+    margin-top: 150px;
+    border: 1px solid;
+}
+.infobtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+    border-bottom: 2px solid;
+    font-size: 18px;
+    background: skyblue;
+    
+}
+
+.txt p{
+    text-align: center;
+}
+.icon img{
+    width: 20px;
+    height: 20px;
+}
+
+.content{
+    display: none;
+}
+
+#img2{
+    display: none;
+}
